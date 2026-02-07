@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovianTech - Sites Profissionais para seu Negócio</title>
+    <link rel="icon" href="img/Logo MovianTech.png" />
+    <meta
+      name="description"
+      content="Criamos sites modernos, rápidos e preparados para o Google, com foco em clareza, conversão e profissionalismo."
+    />
+    <meta
+      name="keywords"
+      content="criação de sites, sites profissionais, landing page, site institucional, web design"
+    />
+    <meta name="author" content="MovianTech" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="MovianTech - Sites Profissionais para seu Negócio"
+    />
+    <meta
+      property="og:description"
+      content="Criamos sites modernos, rápidos e preparados para o Google."
+    />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#hero" class="logo">
+          <div class="logo-icon">
+            <img src="img/Logo MovianTech.png" alt="Logo MovianTech" />
+          </div>
+          <span class="logo-text">MovianTech</span>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Quem Somos</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+
+        <a
+          href="https://wa.me/5511961982483?text=Olá! Gostaria de saber mais sobre os serviços da MovianTech."
+          target="_blank"
+          class="btn btn-nav"
+        >
+          Falar com especialista
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <i data-lucide="menu" class="menu-icon"></i>
+          <i data-lucide="x" class="close-icon"></i>
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+          <li><a href="#hero" class="mobile-nav-link">Início</a></li>
+          <li><a href="#sobre" class="mobile-nav-link">Quem Somos</a></li>
+          <li><a href="#servicos" class="mobile-nav-link">Serviços</a></li>
+          <li><a href="#projetos" class="mobile-nav-link">Projetos</a></li>
+          <li><a href="#contato" class="mobile-nav-link">Contato</a></li>
+        </ul>
+        <a
+          href="https://wa.me/5511961982483?text=Olá! Gostaria de saber mais sobre os serviços da MovianTech."
+          target="_blank"
+          class="btn btn-primary btn-full"
+        >
+          Falar com especialista
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+        <div class="hero-blob hero-blob-3"></div>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="hero-content container">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Aplicações Web Profissionais</span>
+        </div>
+
+        <h1 class="hero-title">
+          Sites profissionais que <span class="highlight">fortalecem</span> a
+          presença digital do seu negócio
+        </h1>
+
+        <p class="hero-subtitle">
+          Criamos sites modernos, rápidos e preparados para o Google, com foco
+          em clareza, conversão e profissionalismo.
+        </p>
+
+        <div class="hero-buttons">
+          <a
+            href="https://wa.me/5511961982483?text=Olá! Gostaria de saber mais sobre os serviços da MovianTech."
+            target="_blank"
+            class="btn btn-outline-light btn-lg"
+          >
+            <i data-lucide="message-circle"></i>
+            Falar com um especialista
+          </a>
+        </div>
+
+        <div class="hero-badges">
+          <div class="trust-badge">
+            <div class="trust-icon">✓</div>
+            <span>Sites responsivos</span>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-icon">✓</div>
+            <span>SEO otimizado</span>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-icon">✓</div>
+            <span>Suporte humanizado</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-mouse">
+          <div class="scroll-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="sobre">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <span class="section-badge">Quem Somos</span>
+            <h2 class="section-title">
+              Transformamos ideias em
+              <span class="text-gradient">experiências digitais</span>
+            </h2>
+            <p class="about-text">
+              A MovianTech é uma empresa especializada na criação de sites
+              profissionais para negócios que desejam se destacar no ambiente
+              digital. Nossa missão é entregar aplicações que combinam design
+              moderno, performance otimizada e estratégia de visibilidade
+              online.
+            </p>
+            <p class="about-text">
+              Trabalhamos com um processo organizado e transparente, garantindo
+              que cada cliente tenha uma experiência positiva do início ao fim.
+              Nosso diferencial está no atendimento humanizado e na atenção aos
+              detalhes.
+            </p>
+          </div>
+
+          <div class="about-features">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="target"></i>
+              </div>
+              <h3 class="feature-title">Foco em resultados</h3>
+              <p class="feature-text">
+                Cada projeto é desenvolvido com objetivo claro: fortalecer sua
+                presença digital.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="users"></i>
+              </div>
+              <h3 class="feature-title">Atendimento humano</h3>
+              <p class="feature-text">
+                Comunicação direta e transparente, sem robôs ou respostas
+                automáticas.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="shield"></i>
+              </div>
+              <h3 class="feature-title">Profissionalismo</h3>
+              <p class="feature-text">
+                Processos organizados e entregas no prazo, sempre com qualidade.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="message-square"></i>
+              </div>
+              <h3 class="feature-title">Comunicação clara</h3>
+              <p class="feature-text">
+                Mantemos você informado em cada etapa do desenvolvimento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Como Trabalhamos</span>
+          <h2 class="section-title">
+            Um processo <span class="text-gradient">organizado</span> para
+            <span class="text-gradient">resultados</span> reais
+          </h2>
+          <p class="section-subtitle">
+            Transparência e organização são a base do nosso trabalho. Conheça as
+            etapas que garantem a qualidade de cada projeto.
+          </p>
+        </div>
+
+        <div class="process-line"></div>
+
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="step-icon-wrapper">
+              <div class="step-icon">
+                <i data-lucide="lightbulb"></i>
+              </div>
+              <span class="step-number">01</span>
+            </div>
+            <h3 class="step-title">Entendimento do negócio</h3>
+            <p class="step-text">
+              Conhecemos sua empresa, objetivos e público-alvo para criar a
+              estratégia ideal.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-icon-wrapper">
+              <div class="step-icon">
+                <i data-lucide="layout-grid"></i>
+              </div>
+              <span class="step-number">02</span>
+            </div>
+            <h3 class="step-title">Estruturação do site</h3>
+            <p class="step-text">
+              Definimos a arquitetura de informação e navegação do projeto.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-icon-wrapper">
+              <div class="step-icon">
+                <i data-lucide="palette"></i>
+              </div>
+              <span class="step-number">03</span>
+            </div>
+            <h3 class="step-title">Design e conteúdo</h3>
+            <p class="step-text">
+              Criamos o visual e organizamos o conteúdo de forma atrativa e
+              funcional.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-icon-wrapper">
+              <div class="step-icon">
+                <i data-lucide="code"></i>
+              </div>
+              <span class="step-number">04</span>
+            </div>
+            <h3 class="step-title">Desenvolvimento</h3>
+            <p class="step-text">
+              Transformamos o design em código limpo, rápido e otimizado.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-icon-wrapper">
+              <div class="step-icon">
+                <i data-lucide="check-circle"></i>
+              </div>
+              <span class="step-number">05</span>
+            </div>
+            <h3 class="step-title">Revisão e entrega</h3>
+            <p class="step-text">
+              Testamos, ajustamos e entregamos seu site pronto para publicação.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nossos Serviços</span>
+          <h2 class="section-title">
+            Aplicações <span class="text-gradient">completas</span> para sua
+            <span class="text-gradient">presença digital</span>
+          </h2>
+          <p class="section-subtitle">
+            Oferecemos serviços especializados para criar e fortalecer a
+            identidade digital do seu negócio.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="rocket"></i>
+            </div>
+            <h3 class="service-title">Landing Pages</h3>
+            <p class="service-text">
+              Páginas de conversão otimizadas para capturar leads e aumentar
+              suas vendas.
+            </p>
+            <ul class="service-features">
+              <li><span class="dot"></span>Alta conversão</li>
+              <li><span class="dot"></span>Design focado</li>
+              <li><span class="dot"></span>Carregamento rápido</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="building-2"></i>
+            </div>
+            <h3 class="service-title">Sites Institucionais</h3>
+            <p class="service-text">
+              Sites completos que apresentam sua empresa com profissionalismo e
+              credibilidade.
+            </p>
+            <ul class="service-features">
+              <li><span class="dot"></span>Múltiplas páginas</li>
+              <li><span class="dot"></span>Navegação intuitiva</li>
+              <li><span class="dot"></span>Conteúdo organizado</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="layout"></i>
+            </div>
+            <h3 class="service-title">Estruturação Profissional</h3>
+            <p class="service-text">
+              Organizamos a arquitetura do seu site para máxima clareza e
+              usabilidade.
+            </p>
+            <ul class="service-features">
+              <li><span class="dot"></span>Hierarquia visual</li>
+              <li><span class="dot"></span>UX otimizada</li>
+              <li><span class="dot"></span>Fluxo de navegação</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="smartphone"></i>
+            </div>
+            <h3 class="service-title">Sites Responsivos</h3>
+            <p class="service-text">
+              Desenvolvimento mobile-first para perfeita visualização em todos
+              os dispositivos.
+            </p>
+            <ul class="service-features">
+              <li><span class="dot"></span>100% responsivo</li>
+              <li><span class="dot"></span>Performance mobile</li>
+              <li><span class="dot"></span>Acessibilidade</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="search"></i>
+            </div>
+            <h3 class="service-title">SEO Técnico</h3>
+            <p class="service-text">
+              Estrutura preparada para indexação no Google e mecanismos de
+              busca.
+            </p>
+            <ul class="service-features">
+              <li><span class="dot"></span>Código semântico</li>
+              <li><span class="dot"></span>Meta tags otimizadas</li>
+              <li><span class="dot"></span>Velocidade de carga</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEO Section -->
+    <section class="section seo">
+      <div class="container">
+        <div class="seo-grid">
+          <div class="seo-content">
+            <span class="section-badge">SEO & Performance</span>
+            <h2 class="section-title">
+              Sites preparados para
+              <span class="text-gradient">aparecer no Google</span>
+            </h2>
+            <p class="seo-text">
+              Desenvolvemos todos os nossos projetos com práticas de SEO
+              técnico, garantindo que seu site tenha a estrutura necessária para
+              ser encontrado pelos mecanismos de busca.
+            </p>
+            <div class="seo-notice">
+              <p class="notice-title">📶 Transparência é fundamental</p>
+              <p class="notice-text">
+                Resultados orgânicos no Google dependem de diversos fatores e
+                levam tempo. Nosso papel é entregar a estrutura técnica correta
+                e otimizada. O posicionamento nas buscas é um trabalho contínuo
+                que vai além do desenvolvimento.
+              </p>
+            </div>
+          </div>
+
+          <div class="seo-features">
+            <div class="seo-card">
+              <div class="seo-card-icon">
+                <i data-lucide="globe"></i>
+              </div>
+              <h3 class="seo-card-title">Preparado para o Google</h3>
+              <p class="seo-card-text">
+                Código semântico e estrutura otimizada para indexação nos
+                mecanismos de busca.
+              </p>
+            </div>
+
+            <div class="seo-card">
+              <div class="seo-card-icon">
+                <i data-lucide="zap"></i>
+              </div>
+              <h3 class="seo-card-title">Alta performance</h3>
+              <p class="seo-card-text">
+                Sites rápidos e leves que carregam em segundos, melhorando a
+                experiência do usuário.
+              </p>
+            </div>
+
+            <div class="seo-card">
+              <div class="seo-card-icon">
+                <i data-lucide="trending-up"></i>
+              </div>
+              <h3 class="seo-card-title">Estrutura correta</h3>
+              <p class="seo-card-text">
+                Hierarquia de conteúdo e meta tags otimizadas para melhor
+                posicionamento.
+              </p>
+            </div>
+
+            <div class="seo-card">
+              <div class="seo-card-icon">
+                <i data-lucide="clock"></i>
+              </div>
+              <h3 class="seo-card-title">Resultados no tempo</h3>
+              <p class="seo-card-text">
+                Resultados orgânicos dependem do tempo do Google, mas entregamos
+                a base certa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projetos" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Projetos</span>
+          <h2 class="section-title">
+            Alguns dos nossos
+            <span class="text-gradient">trabalhos recentes</span>
+          </h2>
+          <p class="section-subtitle">
+            Veja exemplos de sites profissionais que desenvolvemos para nossos
+            clientes.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <img
+              src="img/mantova-print.png"
+              alt="Projeto 1"
+              class="project-image"
+            />
+            <br />
+            <br />
+            <h3 class="project-title">
+              Site Institucional - Empresa Mantova Print
+            </h3>
+          </div>
+          <br />
+          <br />
+          <div class="project-card">
+            <img
+              src="img/eternal-care.png"
+              alt="Projeto 2"
+              class="project-image"
+            />
+            <br />
+            <br />
+            <h3 class="project-title">Site Institucional - Eternal Care</h3>
+          </div>
+          <br />
+          <br />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contato">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Contato</span>
+          <h2 class="section-title">
+            Vamos <span class="text-gradient">conversar</span> sobre seu
+            projeto?
+          </h2>
+          <p class="section-subtitle">
+            Atendimento direto e humanizado. Sem formulários complicados, sem
+            robôs. Fale diretamente com nossa equipe.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a target="_blank" class="contact-card contact-whatsapp">
+            <div class="contact-icon">
+              <i data-lucide="message-circle"></i>
+            </div>
+            <p class="contact-label">WhatsApp</p>
+            <p class="contact-value">(11) 96198-2483</p>
+          </a>
+
+          <a class="contact-card">
+            <div class="contact-icon">
+              <i data-lucide="phone"></i>
+            </div>
+            <p class="contact-label">Telefone</p>
+            <p class="contact-value">(11) 96198-2483</p>
+          </a>
+        </div>
+
+        <div class="contact-notice">
+          <p>Ultilizamos somente Whatsapp e Telefone para meio de contato!</p>
+          <br />
+          <b
+            >(⚠️MOTIVOS DE SEGURANÇA E PROTEÇÃO DE DADOS DO CLIENTE E DA
+            EMPRESA!⚠️)</b
+          ><br />
+        </div>
+
+        <div class="contact-cta">
+          <a
+            href="https://wa.me/5511961982483?text=Olá! Gostaria de saber mais sobre os serviços da MovianTech."
+            target="_blank"
+            class="btn btn-whatsapp btn-lg"
+          >
+            <i data-lucide="message-circle"></i>
+            Iniciar conversa no WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <a href="#hero" class="logo">
+            <div class="logo-icon">
+              <img src="img/Logo MovianTech.png" alt="" />
+            </div>
+            <span class="logo-text">MovianTech</span>
+          </a>
+
+          <p class="footer-tagline">
+            Sites profissionais que fortalecem sua presença digital.
+          </p>
+
+          <p class="footer-copyright">
+            © 2026 MovianTech. Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
